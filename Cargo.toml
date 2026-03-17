@@ -1,0 +1,8 @@
+[workspace]
+members = ["protocol", "server"]
+resolver = "2"
+
+[profile.release]
+opt-level = 2
+lto = true
+strip = "symbols"
